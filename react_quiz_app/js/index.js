@@ -1,3 +1,4 @@
+// Component App
 function App() {
   const [score, setScore] = React.useState(0);
   const [mistakes, setMistakes] = React.useState(0);
@@ -118,6 +119,7 @@ function App() {
   );
 }
 
+// Component Progress Bar
 function ProgressBar({ score }) {
   return (
     <div className='progress'>
